@@ -1,0 +1,52 @@
+* {
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+#container {
+    width: 800px;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+#question {
+    padding: 5px;
+    padding-left: 30px;
+    
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hover {
+    opacity: 0.85;
+}
+
+.alt {
+    background-color: #99A3FF;
+    padding: 5px 50px;
+    border: 1px solid #000;
+}
+
+.correct {
+        background-color: #92FA82;
+    padding: 5px 50px;
+    border: 1px solid #000;
+}
+
+.wrong {
+    background-color: #FAA392;
+    padding: 5px 50px;
+    border: 1px solid #000;
+}
+
+#explanation {
+     background-color: #F2F3FA;
+    padding: 50px 50px 5px;
+}
+
+#summary {
+    background-color: #F2F3FA;
+    text-align: right;
+    padding: 5px;
+    padding-right: 30px;
+}
