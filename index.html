@@ -1,66 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
+    <!-- Metadata. Is updated by settings.js-->
     <meta charset="utf-8">
-    <title>TERKNOLOGIC!!</title>
+    <title>Interaktiv Quiz</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="TIØ4258 interaktive eksamener, wat">
-    <meta name="author" content="Tomas Albertsen Fagerbekk">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
     <!-- Le styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-      .sidebar-nav {
-        padding: 9px 0;
-      }
-
-      @media (max-width: 980px) {
-        /* Enable use of floated navbar text */
-        .navbar-text.pull-right {
-          float: none;
-          padding-left: 5px;
-          padding-right: 5px;
-        }
-      }
-    </style>
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
-
-    <!-- Fav and touch icons -->
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="ico/favicon.png">
+    <link href="css/style.css" rel="stylesheet">
+    
   </head>
 
   <body>
 
     <div class="container-fluid">
       <div class="row-fluid">
+      
       <div class="span3">
           <div class="well sidebar-nav">
             <ul class="nav nav-list">
-              <li class="nav-header">Eksamener i TIØ4258</li>
-              <li class="active h09-h12"><a href="?">Alle</a></li>
-              <li class="h12"><a href="?h12">2012 Høst</a></li>
-              <li class="k12"><a href="?k12">2012 Kont</a></li>
-              <li class="v12"><a href="?v12">2012 Vår</a></li>
-              <li class="h11"><a href="?h11">2011 Høst</a></li>
-              <li class="k11"><a href="?k11">2011 Kont</a></li>
-              <li class="v11"><a href="?v11">2011 Vår</a></li>
-              <li class="h10"><a href="?h10">2010 Høst</a></li>
-              <li class="k10"><a href="?k10">2010 Kont</a></li>
-              <li class="v10"><a href="?v10">2010 Vår</a></li>
-              <li class="h09"><a href="?h09">2009 Høst</a></li>
+              <li class="nav-header examchooser-header"></li>
             </ul>
-          </div><!--/.well -->
-        </div><!--/span-->
+          </div>
+        </div>
+
         <div class="span9">
-          <h3>Teknologiledelse - Eksamen <span id="examversion"></span></h3>
+          <h3 class="pageheader"></h3>
           <div class="progress">
             <div class="bar" id="examprogress" style="width: 0%;"></div>
           </div>
@@ -77,14 +47,15 @@
     
           <div id="summary" >
             <p><span id="points"></span><br />
-            <span id="karakter"></span></p>
+            <span id="grade"></span></p>
           </div>
 
-    </div><!--/.fluid-container-->
+    </div>
 
     <!-- Le javascript -->
     <script src="js/jquery-1.9.1.min.js"></script>
     <script src="data/data.js"></script> <!-- loading questions -->
-    <script src="js/TIØ4258.js"></script>
+    <script src="data/settings.js"></script>
+    <script src="js/quizscript.js"></script>
   </body>
 </html>
