@@ -2,15 +2,17 @@ var questionNum = -1;
 var numOfCorrectAnswers = 0;
 var answered = false;
 
-var query = window.location.search.substring(1);
+var query = decodeURIComponent(window.location.search.substring(1));
 populateNavbar(exams);
 var questions = exams[query];
 if (exams[query] === undefined) {
     query = "all";
     questions = getAllQuestions(exams);
 }
+var jquerySelector = "." + query.split(" ").join(".")
+
 $('li.active').removeClass('active');
-$('li.'+ query).addClass('active');
+$('li' + jquerySelector).addClass('active');
 $('#examversion').html(query);
 shuffle(questions);
 
@@ -35,7 +37,6 @@ function loadNextQuestion() {
         return;
     }
     setHTMLdataFromQuestion(questions[questionNum]);
-    
 }
 
 function clearQuestionLayout() {
