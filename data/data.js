@@ -5636,7 +5636,7 @@ var exams = {
    ]},
 
 {
-   "question":"Tabellen under viser et forenklet finansregnskap for en bedrift. Hva er bedriftens regnskapsmessige totalkapitalrentabilitet etter skatt? <img src='v2014-table-19.png' />",
+   "question":"Tabellen under viser et forenklet finansregnskap for en bedrift. Hva er bedriftens regnskapsmessige totalkapitalrentabilitet etter skatt? <img src='img/v2014-table-19.png' />",
    "solution":"2",
    "explaination":"8,1 % ",
    "number":"19",
@@ -5696,7 +5696,7 @@ var exams = {
    ]},
 
 {
-   "question":"En risikoavers investor vurderer å plassere formuen sin i ett eller flere av verdi­papirene A, B, C og D. Det er ikke aktuelt for investoren å ha lån, innskudd eller andre investeringer. Avkastningene til verdipapirene korrelerer ikke med hverandre. Forventet avkastning og standardavvik er oppgitt i tabellen under. Hvilket av verdi­papirene bør investoren ikke ta med i porteføljen sin uansett grad av risikoaversjon? <img src='v2014-table-24.png' />",
+   "question":"En risikoavers investor vurderer å plassere formuen sin i ett eller flere av verdi­papirene A, B, C og D. Det er ikke aktuelt for investoren å ha lån, innskudd eller andre investeringer. Avkastningene til verdipapirene korrelerer ikke med hverandre. Forventet avkastning og standardavvik er oppgitt i tabellen under. Hvilket av verdi­papirene bør investoren ikke ta med i porteføljen sin uansett grad av risikoaversjon? <img src='img/v2014-table-24.png' />",
    "solution":"2",
    "explaination":"C ",
    "number":"24",
@@ -5720,15 +5720,15 @@ var exams = {
    ]},
 
 {
-   "question":"La r være forventet avkastning for et verdipapir, la <img src='v2014-26B.png' /> være verdipapirets beta, la <img src='v2014-26RF.png' /> være risikofri avkastning og la <img src='v2014-26RM.png' /> være forventet markedsavkastning. Hva er da et korrekt uttrykk for Capital Asset Pricing Model, dvs. kapitalverdimodellen?",
+   "question":"La r være forventet avkastning for et verdipapir, la <img src='img/v2014-26B.png' /> være verdipapirets beta, la <img src='img/v2014-26RF.png' /> være risikofri avkastning og la <img src='img/v2014-26RM.png' /> være forventet markedsavkastning. Hva er da et korrekt uttrykk for Capital Asset Pricing Model, dvs. kapitalverdimodellen?",
    "solution":"3",
    "explaination":" ",
    "number":"26",
    "alternatives": [
-      "<img src='v2014-26a.png' />",
-      "<img src='v2014-26b.png' />",
-      "<img src='v2014-26c.png' />",
-      "<img src='v2014-26d.png' />"
+      "<img src='img/v2014-26a.png' />",
+      "<img src='img/v2014-26b.png' />",
+      "<img src='img/v2014-26c.png' />",
+      "<img src='img/v2014-26d.png' />"
    ]},
 
 {
@@ -5756,15 +5756,15 @@ var exams = {
    ]},
 
 {
-   "question":"La avkastning på egenkapital være <img src='v2014-29RE.png' />, avkastning på gjeld <img src='v2014-29RD.png' />, selskapsskattesatsen <img src='v2014-29TC.png' />, markedsverdi av gjeld D, markedsverdi av egenkapital E og sum verdi av gjeld og egenkapital V. Hva er da et korrekt uttrykk for avkastningskravet til totalkapitalen etter skatt, WACC?",
+   "question":"La avkastning på egenkapital være <img src='img/v2014-29RE.png' />, avkastning på gjeld <img src='img/v2014-29RD.png' />, selskapsskattesatsen <img src='img/v2014-29TC.png' />, markedsverdi av gjeld D, markedsverdi av egenkapital E og sum verdi av gjeld og egenkapital V. Hva er da et korrekt uttrykk for avkastningskravet til totalkapitalen etter skatt, WACC?",
    "solution":"3",
    "explaination":" ",
    "number":"29",
    "alternatives": [
-      "<img src='v2014-29a.png' />",
-      "<img src='v2014-29b.png' />",
-      "<img src='v2014-29c.png' />",
-      "<img src='v2014-29d.png' />"
+      "<img src='img/v2014-29a.png' />",
+      "<img src='img/v2014-29b.png' />",
+      "<img src='img/v2014-29c.png' />",
+      "<img src='img/v2014-29d.png' />"
    ]},
 
 {
